@@ -48,7 +48,7 @@ public static String decode(String encodedPassword){   //Return type is String  
 		//EnterYourEmail.sendKeys("mshahnewaz1@gmail.com");
 		//EnterYourEmail.sendKeys("md83shahnewaz@gmail.com");
 		//EnterYourEmail.sendKeys("tareque979@gmail.com");
-
+		EnterYourEmail.sendKeys("mdahaque1996@gmail.com");
 		
 		
 		WebElement Next1 = driver.findElement(By.xpath("//*[@id='next']"));
@@ -58,6 +58,7 @@ public static String decode(String encodedPassword){   //Return type is String  
 		Password.sendKeys(decode("MDE3MTY1OTMzMTM="));
 		//Password.sendKeys(decode("Hir123456"));
 		//Password.sendKeys("Shama@1981");
+	
 		
 		//System.out.println(decode("MDE3MTY1OTMzMTM="));
 		
