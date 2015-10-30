@@ -8,8 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
-public class Gmail_com {
-	
+public class Gmail_com {	
 public static String decode(String encodedPassword){   //Return type is String  //this is the one of the method is created 
 		
 		byte[] valueDecoded= Base64.decodeBase64(encodedPassword );
@@ -46,7 +45,7 @@ public static String decode(String encodedPassword){   //Return type is String  
 		//EnterYourEmail.sendKeys("shanto191183@gmail.com");
 		//EnterYourEmail.sendKeys("mdszaman83@gmail.com");
 		//EnterYourEmail.sendKeys("mshahnewaz1@gmail.com");
-		//EnterYourEmail.sendKeys("md83shahnewaz@gmail.com");
+		EnterYourEmail.sendKeys("md83shahnewaz@gmail.com");
 		//EnterYourEmail.sendKeys("tareque979@gmail.com");
 		//EnterYourEmail.sendKeys("mdahaque1996@gmail.com");
 		
